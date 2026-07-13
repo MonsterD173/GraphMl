@@ -11,10 +11,8 @@ env/
 data/
 *.pt.tmp
 
-# Generated outputs (keep folders via .gitkeep)
-results/*.csv
-figures/*.png
-figures/*.pdf
+# NOTE: results/*.csv and figures/*.png are intentionally tracked so final
+# experiment outputs can be committed for the report.
 
 # OS / editor
 .DS_Store
